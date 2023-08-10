@@ -30,7 +30,7 @@ In the following description the required steps are divided into three sections:
 
 ![](media/4f98acd5a6fb7110d2b7793ff7c76a20.png)
 
-\#\#\# Application and Verification
+### Application and Verification
 
 [1] The eligible Trust Network Participant (TNP) has to submit its Statement of Interest [link to the form. [Document 5] ] to [tng-support@who.int](mailto:tng-support@who.int) .
 
@@ -83,13 +83,13 @@ Use Algorithm RSA or EC with minimum key length of 4096 bit (RSA) or 256 bit (EC
 
 [14] TNP is ready for onboarding according to WHO requirements and governance and has collected the following information in the Letter of Application [Document 16]:
 
-\- the URL of the private GitHub repositories for each environment (UAT, PROD, DEV (optional))
+- the URL of the private GitHub repositories for each environment (UAT, PROD, DEV (optional))
 
-\- the GPG keys per used environment and authorized/responsible person
+- the GPG keys per used environment and authorized/responsible person
 
-\- 3-digit ISO Participant code
+- 3-digit ISO Participant code
 
-\- The contact details (including email address) of the people authorized to provide the certificates of the TNPThe TNP exchanges the Letter of Application to WHO.
+- The contact details (including email address) of the people authorized to provide the certificates of the TNPThe TNP exchanges the Letter of Application to WHO.
 
 [15] The Letter of Application is received and processed by WHO. The TNP .
 
@@ -112,21 +112,21 @@ When the Letter of Application is received, identification of individuals take p
 
 [22] Validate that GPG key matches cryptographic/governance criteria
 
-\- Key length (min. 3072 bit for RSA and min. 256 bit for ECDSA)
+- Key length (min. 3072 bit for RSA and min. 256 bit for ECDSA)
 
-\- mail address in GPG key must match with the provided mail address in the Letter of Application
+- mail address in GPG key must match with the provided mail address in the Letter of Application
 
 [23] WHO is collecting the required information to be provided to the operations team (OPS):
 
-\- GPG keys of all confirmed people and for all requested environments (UAT, PROD and optional DEV)
+- GPG keys of all confirmed people and for all requested environments (UAT, PROD and optional DEV)
 
-\- the URL's of the applicant private GitHub repositories
+- the URL's of the applicant private GitHub repositories
 
-\- 3-digit ISO participant code of the TNP
+- 3-digit ISO participant code of the TNP
 
-\- the confirmation that the invitation for the GitHub bot users has been accepted
+- the confirmation that the invitation for the GitHub bot users has been accepted
 
-\#\#\# Setup
+### Setup
 
 [30] The collected onboarding information is sent to the operations (OPS) team. The onboarding (OB) team is informed as well.
 
@@ -144,7 +144,7 @@ When the Letter of Application is received, identification of individuals take p
 
 [43 - 45] and the participant will be informed that the preparation has been completed successfully.
 
-\#\#\# Participant Onboarding
+### Participant Onboarding
 
 [50] The participant is connecting to UAT environment and the following steps has to be performed to check the connection:
 
@@ -186,17 +186,17 @@ You should see an output like:
 
 This test includes the listed steps:
 
-\- Upload one or more DSCs to the TNG (Details: xyyy)
+- Upload one or more DSCs to the TNG (Details: xyyy)
 
-\- Delete at least one DSC again (Details: xyyy)
+- Delete at least one DSC again (Details: xyyy)
 
-\- Upload it again if it is required for further testing
+- Upload it again if it is required for further testing
 
-\- Download the trust list from gateway
+- Download the trust list from gateway
 
-\- Provide sample VDHC s to be verified by the service provider
+- Provide sample VDHC s to be verified by the service provider
 
-\- Validate some sample VDHC 's to ensure the validation implementation is working fine
+- Validate some sample VDHC 's to ensure the validation implementation is working fine
 
 [53] After executing all required steps, the participant must provide the test results and samples to the service provider.
 
@@ -250,7 +250,7 @@ f) Upload it again in case the DSC is required
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* older content follows \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-\#\#\# [optional] Onboarding to the Development Environment (DEV) [do we need this part of the description for the DEV?]
+### [optional] Onboarding to the Development Environment (DEV) [do we need this part of the description for the DEV?]
 
 Onboarding to the DEV environment isn't a must and is only performed on request from the participant.
 
