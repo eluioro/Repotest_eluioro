@@ -1,26 +1,26 @@
-\#\# Onboarding Checklist
+## Onboarding Checklist
 
-\#\#\# General Hints
+### General Hints
 
 This document describes the standard onboarding process (so called Future Onboarding Process - FOP).
 
-\*\*Note:\*\* In the embedded image the following relabels apply:
+**Note:** In the embedded image the following relabels apply:
 
-\* DCCG -\> TNG
+* DCCG -> TNG
 
-\* CSCA -\> SCA
+* CSCA -> SCA
 
-\* DCC -\> VDHC (Verifiable Digital Health Certificate)
+* DCC -> VDHC (Verifiable Digital Health Certificate)
 
-\* NB -\> TNP
+* NB -> TNP
 
 It is highly recommended:
 
-\- \*\*to use certificates issued from a public CA which follows the CAB Forum Rules\*\*
+- **to use certificates issued from a public CA which follows the CAB Forum Rules\*\*
 
-\- \*\*not to reuse any certificates across the different staging environments\*\*
+- **not to reuse any certificates across the different staging environments\*\*
 
-\#\# Procedure
+## Procedure
 
 In the following description the required steps are divided into three sections:
 
