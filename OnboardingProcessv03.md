@@ -28,7 +28,7 @@ In the following description the required steps are divided into three sections:
 **[30]** - **[49]** Setup  
 **[50]** - **[End]** Participant Onboarding
 
-![](media/4f98acd5a6fb7110d2b7793ff7c76a20.png)
+![End to End Onboarding Process](https://github.com/eluioro/Repotest_eluioro/blob/main/Onboarding%20Processv92-v8.drawio.png)
 
 ### Application and Verification
 
