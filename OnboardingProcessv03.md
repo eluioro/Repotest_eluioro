@@ -148,7 +148,9 @@ When the Letter of Application is received, identification of individuals take p
 
 **[50]** The participant is connecting to UAT environment and the following steps has to be performed to check the connection:
 
-1) check the connectivity with the following command:  
+<details>
+    
+<summary> 1) check the connectivity with the following command: </summary>  
 curl -v https://tng-uat.who.int/trustList --cert TLS.pem --key TLS_key.pem  
 You should see an output like:
 
@@ -178,7 +180,11 @@ You should see an output like:
 
 \`\`\`
 
+</details>
+
+<details>
 2) Test the other Trustlist Routes in the same style (e. g. with DSC/SCA/Upload/Authentication…)
+</details>
 
 **[51]** In case the connection fails, some corrective actions must be performed to analyze and solve the issue(s). The operations team is supporting the TNP.
 
