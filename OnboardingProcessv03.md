@@ -224,7 +224,8 @@ This test includes the listed steps:
 
 a) Create a Document Signer Certificate (DSC) and sign it by the SCA
 
-b) Create an CMS package with the following command:
+<details> 
+<summary>  b) Create an CMS package with the following command: </summary> 
 
 openssl x509 -outform der -in cert.pem -out cert.der
 
@@ -233,9 +234,13 @@ openssl cms -sign -nodetach -in cert.der -signer signing.crt -inkey signing.key 
 openssl base64 -in signed.der -out cms.b64 -e -A
 
 Note: cert.der is your DSC, signing.crt is the TNPUP
+</details>  
 
-c) Upload the CMS package to the gateway  
+<details> 
+<summary> c) Upload the CMS package to the gateway </summary>  
 curl -v -X POST -H "Content-Type: application/cms" --cert TLS.pem --key TLS_key.pem --data @cms.b64 https://tng-uat.who.int/signerCertificate  
+</details> 
+
 d) Download the trustlist again and check if your DSC is available.
 
 **Note**: Some versions of curl don’t attach the client certificates automatically. This can be checked via curl –version. Ensure that the used version is linked to OpenSSL. Especially under Windows (https://curl.se/windows/):  
