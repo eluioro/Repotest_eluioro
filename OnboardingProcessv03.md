@@ -180,11 +180,11 @@ You should see an output like:
 
 \`\`\`
 
-</details>
+</details> 
 
 <details>
 2) Test the other Trustlist Routes in the same style (e. g. with DSC/SCA/Upload/Authentication…)
-</details>
+</details> 
 
 **[51]** In case the connection fails, some corrective actions must be performed to analyze and solve the issue(s). The operations team is supporting the TNP.
 
