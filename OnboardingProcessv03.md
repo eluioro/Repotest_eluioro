@@ -182,7 +182,7 @@ You should see an output like:
 
 </details> 
 
-<details>
+<details> 
 2) Test the other Trustlist Routes in the same style (e. g. with DSC/SCA/Upload/Authentication…)
 </details> 
 
