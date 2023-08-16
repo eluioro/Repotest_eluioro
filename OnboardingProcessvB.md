@@ -152,7 +152,9 @@ When the Letter of Application is received, identification of individuals take p
 
 <summary> 1) check the connectivity with the following command:  </summary> 
 input:
-curl -v https://tng-uat.who.int/trustList --cert TLS.pem --key TLS_key.pem  
+
+curl -v https://tng-uat.who.int/trustList --cert TLS.pem --key TLS_key.pem 
+
 You should see an output like:
 
 \`\`\`
