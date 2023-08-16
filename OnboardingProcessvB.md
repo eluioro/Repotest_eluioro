@@ -16,9 +16,9 @@ This document describes the standard onboarding process (so called Future Onboar
 
 It is highly recommended:
 
-- **to use certificates issued from a public CA which follows the CAB Forum Rules**
+- **To use certificates issued from a public CA which follows the CAB Forum Rules**
 
-- **not to reuse any certificates across the different staging environments**
+- **Not to reuse any certificates across the different staging environments**
 
 ## Procedure
 
