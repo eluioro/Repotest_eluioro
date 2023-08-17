@@ -219,15 +219,17 @@ f) Validate some sample VDHC 's to ensure the validation implementation is worki
 
 **[61]** In case the connection fails, some corrective actions must be performed to analyze and solve the issue(s). The operations team is supporting the TNP.
 
+
+
+
 **[62]** After the connection to the TNG PROD is established the Production Readiness Test can start.
 
 This test includes the listed steps:
 
 a) Create a Document Signer Certificate (DSC) and sign it by the SCA
 
-
 <details> 
-<summary> b) Create an CMS package with the following command: </summary>
+<summary>  b) Create an CMS package with the following command: </summary> 
 
 Input:
 
@@ -239,30 +241,28 @@ openssl base64 -in signed.der -out cms.b64 -e -A
 
 Note: cert.der is your DSC, signing.crt is the TNPUP
 
-</details> 
 
-<details> 
-<summary> c) Upload the CMS package to the gateway </summary> 
+ c) Upload the CMS package to the gateway 
 
 Input:
 
 curl -v -X POST -H "Content-Type: application/cms" --cert TLS.pem --key TLS_key.pem --data @cms.b64 https://tng-uat.who.int/signerCertificate  
 
-</details>  
 
-<details> 
 
-<summary>  d) Download the trustlist again and check if your DSC is available. </summary> 
+ d) Download the trustlist again and check if your DSC is available. <
+
 
 **Note**: Some versions of curl don’t attach the client certificates automatically. This can be checked via curl –version. Ensure that the used version is linked to OpenSSL. Especially under Windows (https://curl.se/windows/):  
   
 OpenSSL Test Example (working)
 
-</details> 
 
 e) Delete at least one DSC again (Revocation)
 
 f) Upload it again in case the DSC is required
+
+</details> 
 
 **[63 - 64]** After executing all required steps, the participant must provide the test results to the service provider by mail.
 
