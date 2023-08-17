@@ -30,7 +30,7 @@ In the following description the required steps are divided into three sections:
 
 ![](media/4f98acd5a6fb7110d2b7793ff7c76a20.png)
 
-\#\#\# Application and Verification
+### Application and Verification
 
 **[1]** The eligible Trust Network Participant (TNP) has to submit its Statement of Interest [link to the form. [Document 5] ] to tng-support@who.int .
 
@@ -258,7 +258,7 @@ curl -v -X POST -H "Content-Type: application/cms" --cert TLS.pem --key TLS_key.
   
 OpenSSL Test Example (working)
 
-</summary> 
+</details> 
 
 e) Delete at least one DSC again (Revocation)
 
