@@ -220,16 +220,16 @@ f) Validate some sample VDHC 's to ensure the validation implementation is worki
 **[61]** In case the connection fails, some corrective actions must be performed to analyze and solve the issue(s). The operations team is supporting the TNP.
 
 
+<details> 
 
-
-**[62]** After the connection to the TNG PROD is established the Production Readiness Test can start.
+<summary>  **[62]** After the connection to the TNG PROD is established the Production Readiness Test can start. </summary> 
 
 This test includes the listed steps:
 
 a) Create a Document Signer Certificate (DSC) and sign it by the SCA
 
-<details> 
-<summary>  b) Create an CMS package with the following command: </summary> 
+
+b) Create an CMS package with the following command: 
 
 Input:
 
