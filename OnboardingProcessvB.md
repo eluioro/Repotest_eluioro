@@ -222,7 +222,9 @@ f) Validate some sample VDHC 's to ensure the validation implementation is worki
 
 <details> 
 
-<summary>  **[62]** After the connection to the TNG PROD is established the Production Readiness Test can start. </summary> 
+<summary>  
+
+**[62]** After the connection to the TNG PROD is established the Production Readiness Test can start. </summary> 
 
 This test includes the listed steps:
 
