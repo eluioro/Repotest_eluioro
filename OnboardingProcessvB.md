@@ -56,6 +56,15 @@ For a successful connection to the gateway there are the following steps [9] –
 
 1) Certificates must be prepared for all environments (self-signed allowed) following the requirements in Certificate Governance - Authentication: TNPTLS - Upload: TNPUP - SCA(s): TNPSCA
 
+**Note** The participant must provide the CA certificate as well as the TLS certificate.
+
+If the participant uses a self-signed TLS certificate, the TLS certificate can simply be copied and renamed to CA.crt.
+
+In all other cases, the participant provides the appropriate CA certificate.
+
+
+
+
 2) Prepare public keys in PEM format in your private GitHub repository (see [11]) dedicated to the used environment keys.
 
 3) The prepared public keys must be tagged by the generated GPG keys:
