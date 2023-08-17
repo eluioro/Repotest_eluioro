@@ -223,9 +223,9 @@ f) Validate some sample VDHC 's to ensure the validation implementation is worki
 <details> 
 
 
-**[62]** <summary> After the connection to the TNG PROD is established the Production Readiness Test can start. </summary> 
+**[62]** After the connection to the TNG PROD is established the Production Readiness Test can start. 
 
-This test includes the listed steps:
+<summary> This test includes the listed steps: </summary> 
 
 a) Create a Document Signer Certificate (DSC) and sign it by the SCA
 
