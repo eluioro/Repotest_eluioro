@@ -1,5 +1,7 @@
 
-## Guideline to Prepare Key Material Submission## In order to start the onboarding participants need to ### Prepare Key Material Submission.###
+## Guideline to Prepare Key Material Submission 
+
+In order to start the onboarding participants need to Prepare Key Material Submission.
 
 The main steps are:
 
