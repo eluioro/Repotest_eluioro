@@ -13,16 +13,15 @@ and [README.md](https://github.com/WorldHealthOrganization/tng-participant-templ
 
  For more information, you can check the following resources:
 
-* The detailed description of tasks for the End-To-End procedure: 
-https://github.com/WorldHealthOrganization/smart-trust/blob/docs/OnboardingProcess_Documents/input/pagecontent/concepts_onboarding_process_full.md
-
-
-For more detailed descriptions of the tasks involved in this workflow, please refer to this [document] (https://github.com/WorldHealthOrganization/smart-trust/blob/docs/OnboardingProcess_Documents/input/pagecontent/concepts_onboarding_process_full.md)
-Please note that the participant’s work begins at step 8.
-
-
-The Smart Trust concepts and Terms of Participation: https://worldhealthorganization.github.io/smart-trust/concepts.html
+ A Diagram that gives and overview about the steps in order to start the Full Onboarding.
+The [document](https://github.com/WorldHealthOrganization/smart-trust/blob/docs/OnboardingProcess_Documents/input/pagecontent/concepts_onboarding_process_full.md) contain a detailed description of the tasks to be carried out by the participant.
+ Note: Please note that the participant’s work begins at step 8 and ends at step 14.
 
 The general information about Smart Trust:
-https://worldhealthorganization.github.io/smart-trust/
+(https://worldhealthorganization.github.io/smart-trust/)
+
+The Smart Trust concepts and Terms of Participation: 
+(https://worldhealthorganization.github.io/smart-trust/concepts.html)
+
+
 
