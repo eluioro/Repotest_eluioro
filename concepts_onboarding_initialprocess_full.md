@@ -2,7 +2,7 @@
 
 The GDHCN onboarding process is divided it into three main stages as per the following figure:
 
-
+<img src="OOnboardInitialStages_Full.png" style="float:none; margin: 0px 0px 0px 0px;"/>
 
 Figure 1: Onboarding Stages
 
